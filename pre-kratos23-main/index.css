@@ -1285,8 +1285,8 @@ img {vertical-align: middle;}
       
     
   
-    max-width: 75%;
-    max-height: 45%;
+    min-width: 75%;
+    min-height: 45%;
     
   }
 }
