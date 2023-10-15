@@ -1293,6 +1293,7 @@ img {vertical-align: middle;}
 .main_link {
   margin : 0;
   padding: 0;
+  font-weight: bold;
   color: var(--kratos-red-darker);
   
 
@@ -1310,4 +1311,8 @@ img {vertical-align: middle;}
 button.dis:hover{
   cursor: not-allowed;
 
+}
+.kratos_link{
+  font-size: small;
+  text-align: center;
 }
