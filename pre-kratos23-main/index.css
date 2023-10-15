@@ -1290,3 +1290,24 @@ img {vertical-align: middle;}
     
   }
 }
+.main_link {
+  margin : 0;
+  padding: 0;
+  color: var(--kratos-red-darker);
+  
+
+}
+.cc_link {
+  text-decoration: none;
+  color: var(--kratos-white-dull);
+  opacity: .7;
+  padding: 0;
+  margin: 0;
+}
+.cc_link:hover{
+  color: var(--kratos-red-darker);
+}
+button.dis:hover{
+  cursor: not-allowed;
+
+}
