@@ -591,6 +591,7 @@ main {
   .card {
     min-width: 350px !important;
     width: 25%;
+    min-height: 30%;
   }
 
   .cardImage {
@@ -1315,4 +1316,7 @@ button.dis:hover{
 .kratos_link{
   font-size: small;
   text-align: center;
+}
+.eventName{
+  font-size: 50px;
 }
