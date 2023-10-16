@@ -302,6 +302,9 @@ main {
   /* flex-wrap: wrap; */
   width: 100%;
 }
+.icon-2{
+  padding: 27px;
+}
 
 .cardHolder {
   align-items: center;
@@ -1307,7 +1310,7 @@ img {vertical-align: middle;}
   margin: 0;
 }
 .cc_link:hover{
-  color: var(--kratos-red-darker);
+  color: var(--33e-red-darker);
 }
 button.dis:hover{
   cursor: not-allowed;
@@ -1318,5 +1321,9 @@ button.dis:hover{
   text-align: center;
 }
 .eventName{
-  font-size: 50px;
+  font-size: 30px;
 }
+
+.icon-3{
+  padding: 20px;
+  }
