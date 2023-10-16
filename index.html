@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>pre-Kratos &apos;23 | EEC CSE</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="https://storage.googleapis.com/kratos23.com/images/kratos_logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script rel="script" type="text/javascript" src="index.js" defer></script>
+  <script rel="script" type="text/javascript" src="slideshow.js" defer></script>
+
+  <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+</head>
+
+<body>
+  <nav style="padding: 1rem; display: flex; align-items: center;" id="nav">
+    <img class="navLogo" src="https://storage.googleapis.com/kratos23.com/images/kratos_logo.png" />
+    <div style="font-family: 'Libre Baskerville'; font-size: 1.5rem; height: 2rem; ">KRATOS</div>
+  </nav>
+
+  <header class="px-4">
+    <h1 class="text-danger"
+      style="margin-bottom: 2rem; font-size: 2.5rem; text-align: center; font-family: 'Libre Baskerville'">
+      <i class='text-danger' style="font-family: 'Libre Baskerville';">pre-</i>KRATOS '23
+    </h1>
+    <p class="kratos_link"><i>*Notice : Check out our Main Website <a class="main_link" href="https://kratos23.com" target="_blank">kratos23 </a></i> </p>
+    <video class="bannerVideo" muted autoplay loop id="video" height="auto">
+      <source src="vid.mp4" type="video/mp4" />
+    </video>
+    <p class="kratos_link"><i>*Notice : Check out our Main Website <a class="main_link" href="https://kratos23.com" target="_blank">kratos23 </a></i> </p>
+    
+    <p>Kratos&apos;23 is a student-led techincal symposium conducted by the department of CSE at Easwari Engineering
+      College. It is one of the most anticipated events in the college, and a great platform for showcasing your
+      skills in various fields.<br>
+      </p>
+      
+  </header>
+
+
+  <main>
+    <!-- <div class="slideshow-container" id="slideshowContainer">
+    
+    </div>
+    <div class="slideshow-markers" id="slideshowMarkers">
+      <div class="slideshow-button slideshow-button-left" id="slideLeft">&#5130;</div>
+      <div class="slideshow-button slideshow-button-right" id="slideRight">&#5125;</div>
+    </div> ""slide show posters"""-->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="posters/cricket.jpg" style="width:100%">
+       
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="posters/valo.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="posters/BGMI.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="posters/sing.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="posters/dance.jpg" style="width:100%">
+        
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="posters/photo.jpg" style="width:100%">
+        
+      </div>
+      
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        
+      </div>
+    <header class="event-subsection-header">
+      <div class="event-subsection-header-title">Non-Technical</div>
+      <div class="hr"> </div>
+    </header>
+    
+    <div class="event-subsection">
+      <article class="card" id="card1" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage1">
+            <h1 class="eventName">Box Cricket</h1>
+            <div class="icon">
+              <img src="logos/cricket.png">
+            </div>
+            <i id="plus1"
+              onclick="setTimeout(function(){triggerDisplay(1)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details1">
+              <div class="tag">₹250 Per Team
+              </div>
+              <div class="tag">October 18, 2023</div>
+              <div class="tag">Venue: Easwari Engineering College</div>
+              
+            </div>
+            <div id="regButton1" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl1"></div>
+          </div>
+          <div class="bText" id="bText1">
+            <p class="content" id="content1">College life and cricket have something in common: both are about making
+              the most of every moment, whether on the field or in the classroom</p>
+            <p class="contact">👤 Gokulakrishnan - 7904623187</p>
+          </div>
+          <div class="cardRules" id="cardRules1">
+            <h3>Rules</h3>
+            <ol>
+              <li>x4-over cricket matches.</li>
+              <li>5 main players + 1 substitute.</li>
+              <li>Umpire's decisions are final.</li>
+              <li>No refunds after payment.</li>
+              <li>Direct catches out.</li>
+              <li>Three consecutive balls without contact with the bat results in an out.</li>
+              <li>No LBW.</li>
+              <li>Out if Ball leaves the net.</li>
+            </ol>
+          </div>
+          
+
+        </div>
+        <button class="register-btn-section"
+          onclick="window.location.href = 'https://forms.gle/J9nyYUaYyKD6dsyA6'" >Register for Box Cricket
+        </button>
+        
+        <i id="upArrow1" onclick="reset(1)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+      <article class="card" id="card2" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage2">
+            <h1 class="eventName">Valorant</h1>
+            <div class="icon icon-2">
+              <img src="logos/val.png">
+            </div>
+            <i id="plus2"
+              onclick="setTimeout(function(){triggerDisplay(2)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details2">
+              <div class="tag">₹250 Per Team
+              </div>
+              <div class="tag">21st & 22nd October,2023</div>
+              <div class="tag">5 members in a team</div>
+            </div>
+            <div id="regButton2" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl2"></div>
+          </div>
+          <div class="bText" id="bText2">
+            <p class="content" id="content2">Join the ultimate Valorant showdown! Our intense Valorant tournament brings together top teams for thrilling tactical battles and epic clashes. Who will emerge as the champions?
+            </p>
+            <p class="contact">👤 Srinivas - 9600149295</p>
+          </div>
+          <div class="cardRules" id="cardRules2">
+            <h3>Rules</h3>
+            <ol>
+              <li>Matches will be conducted on the basis of brackets.</li>
+              <li>Only the lower bracket matches are on knockout basis.</li>
+              <li>Map and side selection is based on tosses. (Winner of toss will be selecting the map and the loser can choose the side).
+              </li>
+              <li>The matches will be conducted in standard tournament mode.</li>
+              <li>The teams will be given 5 minutes to assemble in the lobby..</li>
+              <li>1 tactical timeout for 2mins is allowed per side apart from technical timeout which can be called out if there is any technical glitch.</li>
+              <li>The playing teams must be on the discord server during the entire match.</li>
+              <li>Toxicity is strictly not entertained and will result in elimination of the team.</li>
+              <li>If anyone is found to be using any kind of hack, the entire team will be disqualified.</li>
+            </ol>
+          </div>
+
+        </div>
+        <button class="register-btn-section"
+          onclick="window.location.href = 'https://forms.gle/c1kdyDAh3LKq9e6F7'">Register for Valorant
+        </button>
+        <i id="upArrow2" onclick="reset(2)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+      <article class="card" id="card3" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage3">
+            <h1 class="eventName">BGMI</h1>
+            <div class="icon icon-3">
+              <img src="logos/bgmi.png">
+            </div>
+            <i id="plus3"
+              onclick="setTimeout(function(){triggerDisplay(3)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details3">
+              <div class="tag">₹200 Per Team
+              </div>
+              <div class="tag">October 28 & 29  2023</div>
+              <div class="tag">Squad</div>
+            </div>
+            <div id="regButton3" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl3"></div>
+          </div>
+          <div class="bText" id="bText3">
+            <p class="content" id="content3">Dive into the battleground of brilliance at 'BGMI', thrilling PUBG online event, set to conquer Kratos'23! 🎮🔥
+            </p>
+            <p class="contact">👤 Shyam Sundar - 9789965860</p>
+          </div>
+          <div class="cardRules" id="cardRules3">
+            <h3>Rules</h3>
+            <ol>
+              <li>All players must be at least level 47 or above.              </li>
+              <li>All registered teams will be split into two equal groups.</li>
+              <li>Round 1:
+
+                The top 5 teams from each group will be selected in the first round. (Map: Erangel )</li>
+              <li>Round 2:
+    
+                The selected 10 teams will compete in the final match (map: Erangel).
+              </li>
+              <li>Point Table:</li>
+              <br>Chicken Dinner: 15 points;
+                Second Place: 12 points;
+                Third place : 10 points;
+                4th place : 8 points;
+                5th place: 6 points;
+                Each Kill: 1 point.</li>
+              <li>ID and password leaking, as well as slot scams, are considered illegal.</li>
+              <li>Hackers are strictly prohibited. Any account bans during the event will result in team disqualification.</li>
+              <li>Team-ups and any form of foul play will lead to disqualification.</li>
+              <li>The winners will be rewarded with a cash prize.
+              </li>
+              
+            </ol>
+          </div>
+
+        </div>
+        <button class="register-btn-section"
+          onclick="window.location.href = 'https://forms.gle/EjEyKyMoter8QJ9J8'">Register for BGMI
+        </button>
+        <i id="upArrow3" onclick="reset(3)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+
+      <article class="card" id="card4" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage4">
+            <h1 class="eventName">Reels Contest: Singing</h1>
+            <div class="icon">
+              <img src="logos/mic.png">
+            </div>
+            <i id="plus4"
+              onclick="setTimeout(function(){triggerDisplay(4)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details4">
+              <div class="tag">₹25 Per Entry
+              </div>
+              <div class="tag">should not exceed 1:30 minutes</div>
+              
+            </div>
+            <div id="regButton4" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl4"></div>
+          </div>
+          <div class="bText" id="bText4">
+            <p class="content" id="content4">Join us in this thrilling singing competition, and let your passion for music shine! We can't wait to see your amazing reels. Good luck to all participants! 
+              Join us and win exciting cash prizes!
+            </p>
+            <p class="contact">👤 Lekshmi Prriya T – 9791014604</p>
+          </div>
+          <div class="cardRules" id="cardRules4">
+            <h3>Rules</h3>
+            <ol>
+              <li>No responses will be accepted after the deadline.</li>
+              <li>Video should not exceed 1:30 minutes</li>
+              <li>Video’s frame size must be of ratio 9:16 and 480p resolution.</li>
+              <li>Participants are allowed to sing in any language and genre.
+              </li>
+              <li>After registration is done, submission details will be shared to you.</li>
+            
+              <li>Videos will be posted on the ‘@_kratos23’ Instagram page as a collaboration post. Collab request will be sent to you which should be accepted.</li>
+              <li>Your performance will be evaluated based on musical parameters and overall performance.</li>
+              <li>Judges’ decision will be final.</li>
+              <li>Vulgarity will lead to disqualification.
+              </li>
+              
+            </ol>
+          </div>
+
+        </div>
+        <button class="register-btn-section dis"
+          onclick="window.location.href = 'https://forms.gle/K9uTPKmT2AdcZLuw7'" disabled>Launching on 21st october
+        </button>
+        <i id="upArrow4" onclick="reset(4)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+
+      <article class="card" id="card5" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage5">
+            <h1 class="eventName">Reels Contest: Dancing</h1>
+            <div class="icon">
+              <img src="logos/dance.png">
+            </div>
+            <i id="plus5"
+              onclick="setTimeout(function(){triggerDisplay(5)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details5">
+              <div class="tag">₹25 Per Entry
+              </div>
+              <div class="tag">should not exceed 1:30 minutes.</div>
+              
+            </div>
+            <div id="regButton5" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl5"></div>
+          </div>
+          <div class="bText" id="bText5">
+            <p class="content" id="content5">Here is your chance to show off your dancing talent and shake the world with your creativity and passion. Just get ready for the Energetic Challenge.
+              Join us and win exciting cash prizes!
+              
+            </p>
+            <p class="contact">👤 Nitin – 7338906977</p>
+          </div>
+          <div class="cardRules" id="cardRules5">
+            <h3>Rules</h3>
+            <ol>
+              <li>Responses after deadline are Not Allowed.</li>
+              <li>Your submission should not exceed 1:30 minutes.</li>
+              <li>Your video should be of at least 480p Resolution and frame size of 9:16.</li>
+              <li>AlAfter Registration is done, submission details will be shared to you.
+              </li>
+              <li>Videos will be posted on the ‘@_kratos23’ Instagram page as a collaboration post. Collab request will be sent to you which should be accepted.</li>
+              
+              <li>Your performance will be evaluated based on step clarity, face expressions and overall performance.</li>
+              <li>Vulgarities will lead to disqualification.</li>
+              <li>The Judges decision will be final.</li>
+              
+              
+              
+            </ol>
+          </div>
+
+        </div>
+        <button class="register-btn-section dis"
+          onclick="window.location.href = 'https://forms.gle/ZTCP27HoYkvNDGpG8'" disabled>Launching on 21st october
+        </button>
+        <i id="upArrow5" onclick="reset(5)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+
+      <article class="card" id="card6" data-aos="fade-up">
+        <div class="cardContent">
+          <div class="cardImage" id="cardImage6">
+            <h1 class="eventName">Ink & Ivory: Photography Event</h1>
+            <div class="icon icon-6">
+              <img src="logos/cam.png">
+            </div>
+            <i id="plus6"
+              onclick="setTimeout(function(){triggerDisplay(6)}, 300); $('.transform').toggleClass('transform-active-another');"
+              class="plus transform fa fa-plus"></i>
+            <div class="details" id="details6">
+              <div class="tag">₹25 Per Entry
+              </div>
+              <div class="tag">Deadline : 26th October</div>
+              <div class="tag">can use either a phone or camera </div>
+            </div>
+            <div id="regButton6" class="but">
+
+              <i id="buttonIcon" class="ok"></i>
+            </div>
+            <div class="vl" id="vl6"></div>
+          </div>
+          <div class="bText" id="bText6">
+            <p class="content" id="content6">Join us for our KRATOS '23 photography event "INK & IVORY" that will ignite your passion for capturing the world around you. Whether you're a seasoned pro or just starting your photography journey, this event promises inspiration, education, and the opportunity to connect with fellow photography enthusiasts
+              Join us and win exciting cash prizes!
+              
+            </p>
+            <p class="contact">👤 Yazhini – 8754139259</p>
+          </div>
+          <div class="cardRules" id="cardRules6">
+            <h3>Rules</h3>
+            <ol>
+              <li>Participants are allowed to submit only one photograph. </li>
+              <li>Minimal editing is allowed. </li>
+              <li>Participants can use either a phone or camera for capturing pictures. </li>
+              <li>Entries will be judged based on relevance to theme and originality.
+              </li>
+              <li>Registration form opens on 21st October. </li>
+              
+              <li>Deadline for submission of your photograph is 26th October, 6:00 pm.</li>
+              <li>After registration is done, submission details will be shared to you.</li>
+              <li>Your submissions will be posted on official Kratos account as a collaboration.</li>
+              <li>Malpractice in any form is strictly prohibited. </li>
+              <li>And judges decision will be final.
+              </li>
+              
+            </ol>
+          </div>
+
+        </div>
+        <button class="register-btn-section dis"
+          onclick="window.location.href = 'https://forms.gle/wepLMkgrvoC8i3QVA'" disabled>Launching on 21st october
+        </button>
+        <i id="upArrow6" onclick="reset(6)" class="upArrow fa fa-caret-up fa-2x" style="display: none;"></i>
+      </article>
+
+      
+    </div>
+  </main>
+
+  <footer id="myFooter" class=" text-center text-lg-start" style="background-color: black;">
+    <div class="footer-elements">
+
+      <div class="footer-top">
+        <div class="ig-section">
+          <div class="insta-logo">
+            <button class="insta" type="button" style="padding: .5rem;"
+              onclick="javascript:location.href='https://www.instagram.com/_kratos23/?igshid=YmMyMTA2M2Y%3D'">
+              <img src="posters/ins.png" height="50" width="50" />
+            </button>
+
+          </div>
+        </div>
+
+        <div class="contact  ">
+          <div class="footer-header">Contact</div>
+          <div class="footer-info">
+            <p class="footer-content-type ">For event queries</p>
+            <p class="footer-content">JANAGAN | 9941686706</p>
+            <p class="footer-content">HARIHARAN | 9384979459</p>
+          </div>
+        </div>
+        
+      </div>
+      <p class="kratos_link"><i>*Notice : Check out our Main Website <a class="main_link" href="https://kratos23.com" target="_blank">kratos23 </a></i> </p>
+      <div id="copyright">
+        © 2022-23 Copyright&ensp;<a class="cc_link" href="https://instagram.com/_.anto._10_?igshid=NGVhN2U2NjQ0Yg==">Antony</a> | <a class="cc_link" href="https://instagram.com/ajmal1_aj?igshid=NGVhN2U2NjQ0Yg==">Ajmal</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+<script>
+  AOS.init();
+</script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+  integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
+<script src="https://kit.fontawesome.com/b460e0b985.js" crossorigin="anonymous"></script>
+
+</html>
