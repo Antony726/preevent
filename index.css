@@ -302,6 +302,9 @@ main {
   /* flex-wrap: wrap; */
   width: 100%;
 }
+.icon-2{
+  padding: 27px;
+}
 
 .cardHolder {
   align-items: center;
@@ -1318,5 +1321,10 @@ button.dis:hover{
   text-align: center;
 }
 .eventName{
-  font-size: 50px;
+  font-size: 30px;
 }
+
+.icon-3{
+  padding: 20px;
+}
+
